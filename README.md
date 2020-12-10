@@ -1,6 +1,7 @@
 # Приложение "Библиотека" на Django v2
 
 * Первая версия приложения - https://github.com/AlenaPliusnina/Django_books_library_v1
+* Данная версия приложения также развернута на Heroku и доступна по ссылке: https://damp-hamlet-67342.herokuapp.com/
 
       Django, Sqlite3
       
