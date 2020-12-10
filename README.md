@@ -10,9 +10,9 @@
       которые в нее добавлены, а также есть возможность эти данные создавать, удалять и редактировать.
 
       Новое в v2:
-         - появилась возможность через приложение (при помощи страниц с формаими) создавать книги и авторов в библиотеку
-         - добавлен список друзей и взятых ими книг (управление через панель админмстратора Django)
-
+         - появилась возможность через приложение (при помощи страниц с формаими) создавать книги, авторов в библиотеке
+         - добавлен роут со списоком друзей и взятыми ими книгами
+         - добавлена возможность добавлть/удалять/обновлять информацию о друзьях и взятых ими книгах (через формы)
 
 Разворачиваем проект локально:
 
@@ -49,28 +49,32 @@
 
 3. http://127.0.0.1:8000/index/ - таблица книг в билиотеке (есть также кнопки позволяющие увеличить/уменьшить колличество экземпляров)
 
-![Список книг в библиотеке](https://github.com/AlenaPliusnina/Django_books_library_v2/blob/master/screenshots/screen_1.png)
+![Список книг в библиотеке](/screenshots/screen_1.png)
 
 3. http://127.0.0.1:8000/publishers/ - вывод списка издательств и их книг
 
-![Список издательств](https://github.com/AlenaPliusnina/Django_books_library_v2/blob/master/screenshots/screen_2.png)
+![Список издательств](/screenshots/screen_2.png)
 
 4. http://127.0.0.1:8000/author/create/ - создать нового автора (формы)
 
-![Список издательств](https://github.com/AlenaPliusnina/Django_books_library_v2/blob/master/screenshots/screen_3.png)
+![Список издательств](/screenshots/screen_3.png)
 
 5. http://127.0.0.1:8000/author/create_many/ - создать несколько авторов за один раз (формы)
 
-![Список издательств](https://github.com/AlenaPliusnina/Django_books_library_v2/blob/master/screenshots/screen_4.png)
+![Список издательств](/screenshots/screen_4.png)
 
 6. http://127.0.0.1:8000/authors/ - список авторов, книги которых есть в библиотеке
 
-![Список издательств](https://github.com/AlenaPliusnina/Django_books_library_v2/blob/master/screenshots/screen_5.png)
+![Список издательств](/screenshots/screen_5.png)
 
 7. http://127.0.0.1:8000/author_book/create_many/ - добавить несколько авторов и несколько книг одновременно (формы);
 
-![Список издательств](https://github.com/AlenaPliusnina/Django_books_library_v2/blob/master/screenshots/screen_6.png)
+![Список издательств](/screenshots/screen_6.png)
 
 8. http://127.0.0.1:8000/friends/ - вывод списка друзей и книг, взятых ими из библиотеки
 
-![Список издательств](https://github.com/AlenaPliusnina/Django_books_library_v2/blob/master/screenshots/screen_7.png)
+![Список издательств](/screenshots/screen_7.png)
+
+9. http://127.0.0.1:8000/friends/create/ - добавление нового друга
+
+![Список издательств](/screenshots/screen_8.png)
