@@ -1,4 +1,4 @@
-# Приложение "Библиотека" на Django v2.
+# Приложение "Библиотека" на Django v2
 
 * Первая версия приложения - https://github.com/AlenaPliusnina/Django_books_library_v1
 
@@ -46,28 +46,28 @@
 
 2. http://127.0.0.1:8000/index/ - таблица книг в билиотеке (есть также кнопки позволяющие увеличить/уменьшить колличество экземпляров)
 
-![Список книг в библиотеке](https://github.com/AlenaPliusnina/D5-Django_books_library/blob/master/screenshots/screen_1.png)
+![Список книг в библиотеке](https://github.com/AlenaPliusnina/Django_books_library_v2/blob/master/screenshots/screen_1.png)
 
 3. http://127.0.0.1:8000/publishers/ - вывод списка издательств и их книг
 
-![Список издательств](https://github.com/AlenaPliusnina/D5-Django_books_library/blob/master/screenshots/screen_2.png)
+![Список издательств](https://github.com/AlenaPliusnina/Django_books_library_v2/blob/master/screenshots/screen_2.png)
 
 4. http://127.0.0.1:8000/author/create/ - создать нового автора (формы)
 
-![Список издательств](https://github.com/AlenaPliusnina/D5-Django_books_library/blob/master/screenshots/screen_3.png)
+![Список издательств](https://github.com/AlenaPliusnina/Django_books_library_v2/blob/master/screenshots/screen_3.png)
 
 5. http://127.0.0.1:8000/author/create_many/ - создать несколько авторов за один раз (формы)
 
-![Список издательств](https://github.com/AlenaPliusnina/D5-Django_books_library/blob/master/screenshots/screen_4.png)
+![Список издательств](https://github.com/AlenaPliusnina/Django_books_library_v2/blob/master/screenshots/screen_4.png)
 
 6. http://127.0.0.1:8000/authors/ - список авторов, книги которых есть в библиотеке
 
-![Список издательств](https://github.com/AlenaPliusnina/D5-Django_books_library/blob/master/screenshots/screen_5.png)
+![Список издательств](https://github.com/AlenaPliusnina/Django_books_library_v2/blob/master/screenshots/screen_5.png)
 
 7. http://127.0.0.1:8000/author_book/create_many/ - добавить несколько авторов и несколько книг одновременно (формы);
 
-![Список издательств](https://github.com/AlenaPliusnina/D5-Django_books_library/blob/master/screenshots/screen_6.png)
+![Список издательств](https://github.com/AlenaPliusnina/Django_books_library_v2/blob/master/screenshots/screen_6.png)
 
 8. http://127.0.0.1:8000/friends/ - вывод списка друзей и книг, взятых ими из библиотеки
 
-![Список издательств](https://github.com/AlenaPliusnina/D5-Django_books_library/blob/master/screenshots/screen_7.png)
+![Список издательств](https://github.com/AlenaPliusnina/Django_books_library_v2/blob/master/screenshots/screen_7.png)
